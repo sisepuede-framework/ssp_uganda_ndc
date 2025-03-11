@@ -1,5 +1,5 @@
-# SSP_Peru
-This repository stores the notebook to run the SSP model on Peru's mitigation scenarios.
+# SSP_Uganda
+This repository stores the notebook to run the SSP model on Uganda's mitigation scenarios.
 
 ## Get Started
 

@@ -1,0 +1,4 @@
+country_name: "peru"
+ssp_input_file_name: "inputs_lka_per_tza_built_20250225.csv"
+ssp_transformation_cw: "ssp_peru_transformation_2025_03_07.xlsx"
+energy_model_flag: true

@@ -1,4 +1,4 @@
 country_name: "uganda"
-ssp_input_file_name: "ssp_inputs_uganda_20250311.csv"
+ssp_input_file_name: "ssp_inputs_uganda_BaU_Scenario.csv"
 ssp_transformation_cw: "ssp_uganda_transformation_cw_2025_03_11.xlsx"
 energy_model_flag: true

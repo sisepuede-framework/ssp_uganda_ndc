@@ -3,7 +3,7 @@ rm(list=ls())
 file.name <-"uganda.csv"
 iso_code3 <- "UGA"
 Country <- "uganda"
-output.folder <- "ssp_modeling/ssp_run/bau/"
+output.folder <- "ssp_modeling/ssp_run/bau_energy/"
 dir.data <- output.folder
 mapping <- read.csv("ssp_modeling/output_postprocessing/data/mapping_corrected_uganda.csv")
 

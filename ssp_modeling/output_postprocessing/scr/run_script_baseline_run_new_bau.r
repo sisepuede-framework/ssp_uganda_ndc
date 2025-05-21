@@ -5,7 +5,7 @@ rm(list=ls())
 ################################################################################
 
 te_all<-read.csv("ssp_modeling/output_postprocessing/data/emission_targets_uganda.csv")
-te_all <- subset(te_all,Subsector%in%c( "lvst","lsmm","agrc","ippu","waso","trww","frst","lndu","soil"))
+# te_all <- subset(te_all,Subsector%in%c( "lvst","lsmm","agrc","ippu","waso","trww","frst","lndu","soil"))
 target_country <- "UGA"
 te_all<-te_all[,c("Subsector","Gas","Vars","Edgar_Class",target_country)]
 te_all[,"tvalue"] <- te_all[,target_country]
@@ -14,7 +14,7 @@ target_vars <- unlist(strsplit(te_all$Vars,":"))
 
 
 #ouputfile
-output.folder <- "ssp_modeling/ssp_run/bau/"
+output.folder <- "ssp_modeling/ssp_run/bau_energy/"
 output.file<-"sisepuede_results_sisepuede_bau_run.csv"
 
 data_all<-read.csv(paste0(output.folder,output.file))
